@@ -13,7 +13,7 @@ A lightweight, black-box hallucination detection framework for Retrieval-Augment
 | TPA (ACL 2026) [white-box] | 0.824 | — |
 | Best single-signal baseline | 0.548 | — |
 
-Ablation results:
+Ablation results(LR):
 
 | Signal group | AUROC |
 |---|---|
