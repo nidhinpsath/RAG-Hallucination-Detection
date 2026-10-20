@@ -9,7 +9,7 @@ A lightweight hallucination detection framework for Retrieval-Augmented Generati
 | TPA (ACL 2026) \[white-box\] | 0.824 | 0.601 | — |
 | Baseline: Entropy (inv.) | 0.548 | 0.280 | 0.280 |
 | Baseline: Avg Token Prob | 0.541 | 0.283 | 0.290 |
-| Baseline: Embed Sim (inv.) | 0.547 | 0.283 | 0.290 |
+| Baseline: Embed Sim | 0.547 | 0.283 | 0.290 |
 | Baseline: Retriever Score | 0.417 | 0.267 | 0.340 |
 | Logistic Regression | 0.895 | 0.640 | 0.820 |
 | MLP | 0.892 | 0.667 | 0.860 |
