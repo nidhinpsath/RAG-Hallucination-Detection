@@ -4,14 +4,19 @@ A lightweight, black-box hallucination detection framework for Retrieval-Augment
 
 ## Results
 
-| Model | AUROC | vs TPA |
-|---|---|---|
-| **Random Forest (best)** | **0.911** | **+0.087** |
-| Logistic Regression | 0.894 | +0.070 |
-| MLP | 0.890 | +0.066 |
-| XGBoost | 0.890 | +0.066 |
-| TPA (ACL 2026) [white-box] | 0.824 | — |
-| Best single-signal baseline | 0.548 | — |
+| Model | AUROC | F1 | Acc |
+|---|---|---|---|
+| TPA (ACL 2026) \[white-box\] | 0.824 | 0.601 | — |
+| Baseline: Entropy (inv.) | 0.548 | 0.280 | 0.280 |
+| Baseline: Avg Token Prob | 0.541 | 0.283 | 0.290 |
+| Baseline: Embed Sim (inv.) | 0.547 | 0.283 | 0.290 |
+| Baseline: Retriever Score | 0.417 | 0.267 | 0.340 |
+| Logistic Regression | 0.895 | 0.640 | 0.820 |
+| MLP | 0.892 | 0.667 | 0.860 |
+| **Random Forest (best)** | **0.911** | **0.667** | **0.890** |
+| XGBoost | 0.893 | 0.579 | 0.840 |
+
+Best single-signal baseline: 0.548 · vs baseline: +0.363 · vs TPA: +0.087
 
 Ablation results (LR, all 17 signals as baseline):
 
