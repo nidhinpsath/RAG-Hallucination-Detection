@@ -1,6 +1,6 @@
 # Detect Hallucinations in RAG from Retrieval and Generation Signals
 
-A lightweight, black-box hallucination detection framework for Retrieval-Augmented Generation (RAG) systems. The framework extracts 17 externally observable signals from the retrieval, generation, and alignment stages of any RAG pipeline and trains supervised classifiers to predict whether a generated answer is hallucinated without requiring access to internal model states.
+A lightweight hallucination detection framework for Retrieval-Augmented Generation (RAG) systems. The framework extracts 17 externally observable signals from the retrieval, generation, and alignment stages of any RAG pipeline and trains supervised classifiers to predict whether a generated answer is hallucinated, without requiring access to internal model states, weights, or logits.
 
 ## Results
 
